@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+
+<title>umvrxw</title>
+
+<meta name="yandex-verification" content="e1e012cb54000e9a"/>
+
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<link href="css/core.css" rel="stylesheet">
+<link href="css/animate.css" rel="stylesheet">
+<link href="css/all.min.css" rel="stylesheet">
+
+<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+<link rel="icon" href="img/1.png" sizes="32x32" />
+<link rel="icon" href="img/1.png" sizes="192x192" />
+<link rel="apple-touch-icon-precomposed" href="img/1.png" />
+<meta name="msapplication-TileImage" content="img/1.png" />
+
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/modernizr.custom.js"></script>
+<script src="js/plugins.min.js"></script>
+<script src="js/main.js"></script>
+<script src="js/title.js"></script>
+<script src="https://kit.fontawesome.com/d9165a66e9.js" crossorigin="umvrxw"></script>
+
+<style>@font-face{font-family:Pompadur;src:url(fonts/font.eot);src:local(pompadur),url(fonts/font.ttf);}h1{font-family:Pompadur,'Comic Sans MS',cursive;}</style>
+<style>@font-face{font-family:Pompadur;src:url(fonts/font.eot);src:local(pompadur),url(fonts/font.ttf);}h2{font-family:Pompadur,'Comic Sans MS',cursive;}</style>
+<style>@font-face{font-family:Pompadur;src:url(fonts/font.eot);src:local(pompadur),url(fonts/font.ttf);}h3{font-family:Pompadur,'Comic Sans MS',cursive;}</style>
+<style>@font-face{font-family:Pompadur;src:url(fonts/font.eot);src:local(pompadur),url(fonts/font.ttf);}h4{font-family:Pompadur,'Comic Sans MS',cursive;}</style>
+	
+	<script> 
+		document.onkeydown = function(e) { 
+		if (e.ctrlKey && (e.keyCode === 67 || e.keyCode === 86 || e.keyCode === 85 || e.keyCode === 117)) {//Alt+c, Alt+v will also be disabled sadly. 
+		} 
+		return false; 
+		}; 
+	</script>
+	<script> 
+		function click() { 
+		if (event.button==2||event.button==3) { 
+		oncontextmenu='return false'; 
+		} 
+		} 
+		document.onmousedown=click 
+		document.oncontextmenu = new Function("return false;") 
+	</script>
+	<script>
+		function disableWheelScroll(){
+		if (document.body.addEventListener) document.body.addEventListener('DOMMouseScroll', blockWheel, false);
+		document.body.onmousewheel = blockWheel;
+		}
+		function blockWheel(event){
+		if (!event) event = window.event;
+		if (event.stopPropagation) event.stopPropagation();
+		else event.cancelBubble = true;
+		if(event.preventDefault) event.preventDefault();
+		else event.returnValue = false;
+		}
+		disableWheelScroll();
+	</script>
+	
+</head>
+
+<body onmousedown="return false" onselectstart="return false">
+	<style>body{overflow:hidden}</style>
+	<script>disableWheelScroll();</script>
+	<div id="star" class="video mask overlay">
+		<i class="stop-button fa fa-pause"></i>
+		<i class="volume-button fas fa-volume-mute"></i>
+		<div class="video-fall"></div>
+		<video id="video" preload="auto" autoplay="true" loop="true" muted="muted">
+			<source src="videos/young kid.mp4" type="video/mp4"/>
+				Your browser sucks. Better to upgrade him.
+		</video>
+		<canvas class="cover"></canvas>
+	</div>
+	<div class="pageoverlay">
+		<div class="lightbox">
+			<div class="awrapper">
+				<div class="titles fadeInDown">
+					<h1>umvrxw</h1>
+				</div>
+				<div class="media fadeInUp">
+					<a>
+						<a href="https://vk.com/etherealtalent" target=_blank""><i class="fa fa-vk"></i></a>
+						<a href="https://t.me/umvrxw" target="_blank"><i class="fa fa-telegram"></i></a>
+						<a href="https://behance.net/umvrxw" target="_blank"><i class="fa fa-behance"></i></a>
+						<a href="https://instagram.com/umvrxw" target="_blank"><i class="fa fa-instagram"></i></a>
+					</a>	
+					<a>
+						<div class="fadeInUp">
+							<h3><script src="js/godisagirl.js"></script></h3>
+						</div>
+					</a>
+				</div>
+			</div>
+		</div>	
+	</div>
+</body>
+</html>
